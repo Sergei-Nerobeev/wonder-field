@@ -15,7 +15,6 @@ public class Game extends AbsData {
 
 	private DataSet dataSet = new DataSet();
 	public Game(){
-
 	}
 	public void init(){ // инициализация игры
 		System.out.println("Запуск игры \"Поле Чудес\" - подготовка к игре.Вам нужно ввести вопросы " +
