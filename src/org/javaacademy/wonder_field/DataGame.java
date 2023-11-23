@@ -40,8 +40,9 @@ public class DataGame {
 
 
 		} catch (InterruptedException exception) {
-			System.out.println(exception.getMessage());
-			exception.printStackTrace();
+			InterruptedException interruptedException = new InterruptedException("Произошла неизвестная ошибка!");
+			System.out.println(interruptedException.getMessage());
+			interruptedException.printStackTrace();
 		}
 		scanner.close();
 	}
