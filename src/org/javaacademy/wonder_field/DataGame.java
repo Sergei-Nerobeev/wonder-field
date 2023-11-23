@@ -3,59 +3,46 @@ package org.javaacademy.wonder_field;
 import java.util.Scanner;
 
 /*
- * ДАННЫЙ КЛАСС ЗАГРУЖАЕТ ДАННЫЕ (ВОПРОСЫ И ОТВЕТЫ) ДЛЯ ИНИЦИАЛИЗАЦИИ ИГРЫ В МАССИВЫ СТРОК.
+ * ДАННЫЙ КЛАСС ЗАГРУЖАЕТ И ОТДАЕТ ДАННЫЕ (ВОПРОСЫ И ОТВЕТЫ) ДЛЯ ИНИЦИАЛИЗАЦИИ ИГРЫ В МАССИВ СТРОК.
  */
 public class DataGame {
 
-		private final String[] DATA_IN;
+	private final String[] DATA_IN;
 
-		public DataGame() {
-				this.DATA_IN = new String[8];
-//				setDataGame();
+	public DataGame() {
+		this.DATA_IN = new String[8];
+	}
 
+	public String[] getDataGame() {
+		return DATA_IN;
+	}
+
+	public void setDataGame() {
+
+		System.out.println("Запуск игры \"Поле Чудес\" - подготовка к игре.Вам нужно ввести вопросы " +
+				"и ответы для игры: ");
+
+		Scanner scanner = new Scanner(System.in);
+		try {
+
+			for (int i = 0; i < DATA_IN.length; i++) {
+				DATA_IN[i] = scanner.nextLine();
+			}
+
+			System.out.println("Инициализация закончена, игра начнется через 5 секунд...");
+			Thread.sleep(5000);
+			for (int i = 0; i <= 50; i++) {
+
+				System.out.println();
+
+			}
+			System.out.println("ЗАГРУЗКА ДАННЫХ УСПЕШНО ЗАВЕРШЕНА..........................................");
+
+
+		} catch (InterruptedException exception) {
+			System.out.println("Ошибка при ожидании!");
+			exception.printStackTrace();
 		}
-
-		public void setDataGame() {
-
-				System.out.println("Запуск игры \"Поле Чудес\" - подготовка к игре.Вам нужно ввести вопросы " +
-						"и ответы для игры: ");
-
-				Scanner scanner = new Scanner(System.in);
-				for (int i = 0; i < DATA_IN.length; i++) {
-						DATA_IN[i] = scanner.nextLine();
-				}
-				System.out.println("Строки: ");
-				for (String element : DATA_IN) {
-						System.out.println(element);
-				}
-				System.out.println("Инициализация закончена, игра начнется через 5 секунд...");
-
-				for (int i = 0; i <= 50; i++) {
-						if(i == 10){
-								System.out.println();
-								System.out.println(".............");
-						}
-						if(i == 20){
-								System.out.println();
-								System.out.println(".......................");
-						}
-						if(i == 30){
-								System.out.println();
-								System.out.println("...............................");
-						}
-						if(i == 40){
-								System.out.println();
-								System.out.println("............................................");
-						}
-						if(i == 50){
-								System.out.println();
-								System.out.println(".......................................................");
-								System.out.println();
-								System.out.println("ЗАГРУЗКА ДАННЫХ УСПЕШНО ЗАВЕРШЕНА..........................................");
-						}
-
-						}
-
-				scanner.close();
-		}
+		scanner.close();
+	}
 }
