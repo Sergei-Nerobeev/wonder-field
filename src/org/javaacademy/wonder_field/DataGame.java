@@ -40,7 +40,7 @@ public class DataGame {
 
 
 		} catch (InterruptedException exception) {
-			System.out.println("Ошибка при ожидании!");
+			System.out.println(exception.getMessage());
 			exception.printStackTrace();
 		}
 		scanner.close();
