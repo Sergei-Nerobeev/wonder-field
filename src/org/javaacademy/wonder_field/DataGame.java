@@ -36,7 +36,7 @@ public class DataGame {
 				System.out.println();
 
 			}
-			System.out.println("ЗАГРУЗКА ДАННЫХ УСПЕШНО ЗАВЕРШЕНА..........................................");
+			System.out.println("__ЗАГРУЗКА ДАННЫХ УСПЕШНО ЗАВЕРШЕНА__");
 
 
 		} catch (InterruptedException exception) {
