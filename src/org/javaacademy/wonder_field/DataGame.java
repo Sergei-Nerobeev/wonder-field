@@ -7,14 +7,14 @@ import java.util.Scanner;
  */
 public class DataGame {
 
-	private final String[] DATA_IN;
+	private final String[] dataIn;
 
 	public DataGame() {
-		this.DATA_IN = new String[8];
+		this.dataIn = new String[8];
 	}
 
 	public String[] getDataGame() {
-		return DATA_IN;
+		return dataIn;
 	}
 
 	public void setDataGame() {
@@ -25,8 +25,8 @@ public class DataGame {
 		Scanner scanner = new Scanner(System.in);
 		try {
 
-			for (int i = 0; i < DATA_IN.length; i++) {
-				DATA_IN[i] = scanner.nextLine();
+			for (int i = 0; i < dataIn.length; i++) {
+				dataIn[i] = scanner.nextLine();
 			}
 
 			System.out.println("Инициализация закончена, игра начнется через 5 секунд...");
@@ -36,7 +36,6 @@ public class DataGame {
 				System.out.println();
 
 			}
-			System.out.println("__ЗАГРУЗКА ДАННЫХ УСПЕШНО ЗАВЕРШЕНА__");
 
 
 		} catch (InterruptedException exception) {

@@ -4,19 +4,19 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Game {
-		private final int PLAYER_1 = 1;
-		private final int PLAYER_2 = 2;
-		private final int PLAYER_3 = 3;
-		private final int ROUND_1 = 1;
-		private final int ROUND_2 = 2;
-		private final int ROUND_3 = 3;
-		private final int ROUND_4 = 4;
-		private final int GROUP_ROUND_1 = 1;
-		private final int GROUP_ROUND_2 = 2;
-		private final int GROUP_ROUND_3 = 3;
-		private final int INDEX_OF_FINAL_ROUND_1 = 1;
-		private final int INDEX_OF_FINAL_ROUND_2 = 2;
-		private final int INDEX_OF_FINAL_ROUND_3 = 3;
+		private final int player1 = 1;
+		private final int player2 = 2;
+		private final int player3 = 3;
+		private final int round1 = 1;
+		private final int round2 = 2;
+		private final int round3 = 3;
+		private final int round4 = 4;
+		private final int groupRound1 = 1;
+		private final int groupRound2 = 2;
+		private final int groupRound3 = 3;
+		private final int indexOfFinalRound1 = 1;
+		private final int indexOfFinalRound2 = 2;
+		private final int indexOfFinalRound3 = 3;
 
 		static Scanner scanner = new Scanner(System.in);
 
