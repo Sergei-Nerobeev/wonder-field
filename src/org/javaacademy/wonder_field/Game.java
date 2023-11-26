@@ -30,8 +30,9 @@ public class Game {
 		public void init()  {
 
 			dataGame.setDataGame();
-//			todo удалить перед отправкой
 
+
+//			todo удалить перед отправкой
 			System.out.println(Arrays.toString(dataGame.getDataGame()));
 
 
