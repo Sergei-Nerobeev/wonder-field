@@ -31,11 +31,6 @@ public class Game {
 
 			dataGame.setDataGame();
 
-
-//			todo удалить перед отправкой
-			System.out.println(Arrays.toString(dataGame.getDataGame()));
-
-
 		}
 
 
