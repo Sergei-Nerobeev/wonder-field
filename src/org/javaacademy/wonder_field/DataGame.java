@@ -6,14 +6,19 @@ import java.util.Scanner;
  * ДАННЫЙ КЛАСС ЗАГРУЖАЕТ И ОТДАЕТ ДАННЫЕ (ВОПРОСЫ И ОТВЕТЫ) В МАССИВ СТРОК.
  */
 public class DataGame {
-	private final String[] dataIn;
+	private final String[] questions;
+	private final String[] answers;
+
 
 	public DataGame() {
-		this.dataIn = new String[8];
+		this.questions = new String[4];
+		this.answers = new String[4];
 	}
 
-	public String[] getDataGame() {
-		return dataIn;
+	public String[] getQuestions() {
+		return questions;
+	}public String[] getAnswers() {
+		return answers;
 	}
 
 	public void setDataGame() {
@@ -22,10 +27,15 @@ public class DataGame {
 				"и ответы для игры: ");
 
 		Scanner scanner = new Scanner(System.in);
+
 		try {
 
-			for (int i = 0; i < dataIn.length; i++) {
-				dataIn[i] = scanner.nextLine();
+			for (int i = 0; i < questions.length; i++) {
+				System.out.println("Введите вопрос № " + (i + 1));
+				questions[i] = scanner.nextLine();
+
+			  System.out.println("Введите ответ № " + (i + 1));
+			  answers[i] = scanner.nextLine();
 			}
 
 			System.out.println("Инициализация закончена, игра начнется через 5 секунд.....");
@@ -33,7 +43,6 @@ public class DataGame {
 			for (int i = 0; i <= 50; i++) {
 
 				System.out.println();
-
 			}
 
 		} catch (InterruptedException exception) {

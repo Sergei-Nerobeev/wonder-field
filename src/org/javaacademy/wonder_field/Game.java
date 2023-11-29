@@ -30,6 +30,10 @@ public class Game {
 		public void init()  {
 
 			dataGame.setDataGame();
+			String [] questions = dataGame.getQuestions();
+			String [] answers = dataGame.getAnswers();
+				System.out.println(Arrays.toString(questions));
+				System.out.println(Arrays.toString(answers));
 
 		}
 
