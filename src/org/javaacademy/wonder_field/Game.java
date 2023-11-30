@@ -32,8 +32,7 @@ public class Game {
 		public void init() {
 
 				dataGame.setDataGame();
-				String[] questions = dataGame.getQuestions();
-				String[] answers = dataGame.getAnswers();
+
 
 		}
 
