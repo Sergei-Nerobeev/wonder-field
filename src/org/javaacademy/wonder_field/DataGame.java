@@ -1,6 +1,7 @@
 package org.javaacademy.wonder_field;
 
 import java.util.Scanner;
+
 /*
  * ДАННЫЙ КЛАСС ЗАГРУЖАЕТ И ОТДАЕТ ДАННЫЕ (ВОПРОСЫ И ОТВЕТЫ) В МАССИВЫ СТРОК.
  */
@@ -16,7 +17,9 @@ public class DataGame {
 
 	public String[] getQuestions() {
 		return questions;
-	}public String[] getAnswers() {
+	}
+
+	public String[] getAnswers() {
 		return answers;
 	}
 
@@ -33,8 +36,8 @@ public class DataGame {
 				System.out.println("Введите вопрос № " + (i + 1));
 				questions[i] = scanner.nextLine();
 
-			  System.out.println("Введите ответ № " + (i + 1));
-			  answers[i] = scanner.nextLine();
+				System.out.println("Введите ответ № " + (i + 1));
+				answers[i] = scanner.nextLine();
 			}
 
 			System.out.println("Инициализация закончена, игра начнется через 5 секунд.....");
