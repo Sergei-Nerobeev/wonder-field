@@ -22,7 +22,7 @@ public class Game {
 	private final int indexOfFinalRound3 = 3;
 
 	static Scanner scanner = new Scanner(System.in);
-	private DataGame dataGame = new DataGame();
+	private final DataGame dataGame;
 
 	public Game() {
 		this.dataGame = new DataGame();
