@@ -2,6 +2,9 @@ package org.javaacademy.wonder_field;
 
 import java.util.Arrays;
 import java.util.Scanner;
+/*
+* КЛАСС ИГРА, СБОРЩИК ДРУГИХ ОБЬЕКТОВ ПРОГРАММЫ
+*/
 
 public class Game {
 		private final int player1 = 1;
