@@ -9,7 +9,6 @@ public class DataGame {
 	private final String[] questions;
 	private final String[] answers;
 
-
 	public DataGame() {
 		this.questions = new String[4];
 		this.answers = new String[4];
