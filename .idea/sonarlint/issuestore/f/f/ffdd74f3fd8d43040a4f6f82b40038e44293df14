@@ -1,0 +1,6 @@
+
+|
+java:S1450"ZRemove the "rightAnswer" field and declare it as a local variable in the relevant methods.(–õ…´ÿÿÿÿÿ8±çØ’Ê1
+L	java:S106"+Replace this use of System.out by a logger.(¼ÒÂâüÿÿÿÿ8¸çØ’Ê1
+Q
+java:S1068"/Remove this unused "rightAnswer" private field.(–õ…´ÿÿÿÿÿ8¹çØ’Ê1
