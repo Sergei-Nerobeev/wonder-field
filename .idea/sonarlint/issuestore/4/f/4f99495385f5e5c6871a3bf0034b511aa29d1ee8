@@ -1,29 +1,29 @@
 
 C
-java:S1170"!Make this final field static too.(ŠÙøÿÿÿÿ8Ãò¢‘Ê1
+java:S1170"!Make this final field static too.(ŠÙøÿÿÿÿ8™ê³–Ê1
 >
-java:S1170"!Make this final field static too.(¿ñÈÏ8Äò¢‘Ê1
+java:S1170"!Make this final field static too.(¿ñÈÏ8™ê³–Ê1
 >
-java:S1170	"!Make this final field static too.(Ò¯¸ı8Äò¢‘Ê1
+java:S1170	"!Make this final field static too.(Ò¯¸ı8šê³–Ê1
 C
 java:S1170
-"!Make this final field static too.(ãÒú«şÿÿÿÿ8Äò¢‘Ê1
-L	java:S106 "+Replace this use of System.out by a logger.(€¬’±ûÿÿÿÿ8Îò¢‘Ê1
+"!Make this final field static too.(ãÒú«şÿÿÿÿ8šê³–Ê1
+L	java:S106 "+Replace this use of System.out by a logger.(€¬’±ûÿÿÿÿ8£ê³–Ê1
 €
-java:S21425"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(óÙÁªúÿÿÿÿ8Ïò¢‘Ê1
-F	java:S106&"+Replace this use of System.out by a logger.(‰‹ô68Ğò¢‘Ê1
-G	java:S106)"+Replace this use of System.out by a logger.(ÊÀØ8Ñò¢‘Ê1
-L	java:S106-"+Replace this use of System.out by a logger.(‚Ç‚èûÿÿÿÿ8Òò¢‘Ê1
-L	java:S1061"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Òò¢‘Ê1
-G	java:S1066"+Replace this use of System.out by a logger.(ä‡ˆ8Ôò¢‘Ê1
+java:S21425"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(óÙÁªúÿÿÿÿ8£ê³–Ê1
+F	java:S106&"+Replace this use of System.out by a logger.(‰‹ô68¤ê³–Ê1
+G	java:S106)"+Replace this use of System.out by a logger.(ÊÀØ8¥ê³–Ê1
+L	java:S106-"+Replace this use of System.out by a logger.(‚Ç‚èûÿÿÿÿ8¥ê³–Ê1
+L	java:S1061"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¦ê³–Ê1
+G	java:S1066"+Replace this use of System.out by a logger.(ä‡ˆ8§ê³–Ê1
 O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8„Ú±‘Ê1
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¨ê³–Ê1
 R
-java:S1068"0Remove this unused "playersCount" private field.(ŠÙøÿÿÿÿ8Õò¢‘Ê1
+java:S1068"0Remove this unused "playersCount" private field.(ŠÙøÿÿÿÿ8©ê³–Ê1
 L
-java:S1068"/Remove this unused "roundsCount" private field.(¿ñÈÏ8Õò¢‘Ê1
+java:S1068"/Remove this unused "roundsCount" private field.(¿ñÈÏ8©ê³–Ê1
 Q
-java:S1068	"4Remove this unused "groupsRoundCount" private field.(Ò¯¸ı8Öò¢‘Ê1
+java:S1068	"4Remove this unused "groupsRoundCount" private field.(Ò¯¸ı8©ê³–Ê1
 W
 java:S1068
-"5Remove this unused "indexOfFinalRound" private field.(ãÒú«şÿÿÿÿ8Öò¢‘Ê1
+"5Remove this unused "indexOfFinalRound" private field.(ãÒú«şÿÿÿÿ8©ê³–Ê1
