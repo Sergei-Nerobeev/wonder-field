@@ -5,6 +5,5 @@ public class Runner {
 
     Game game = new Game();
     game.init();
-
   }
 }
